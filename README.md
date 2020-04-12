@@ -2,9 +2,11 @@
 Final Integrated Project
 
 ## Summary
+
 The brands I chose are Collective Arts Brewing and Lucy & Yak, specifically 'Rainbowz' Limited Edition Striped Dungarees. In this project, I combined them into "Collective Lucy & Yak Brewintg, designed beer labels inspired by Lucy & Yak's aesthetic and brand theme.
 
-##Interaction
+## Interactions
+
 Most of them are array application. In the homepage, users can click into beer thumbnails to read summary of each products. In each beer information page, users can alter between beer descriptions and artwork descriptions as well as changing images.
 
 ## Dependencies
