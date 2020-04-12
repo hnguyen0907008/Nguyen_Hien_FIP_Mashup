@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Collective Lucy&Yak Brewing</title>
+</head>
+
+<body>
+  <header>
+    <div class="mainLogo">
+       <a href="index.html"><img src="images/small_logo.png" alt="Main Logo"></a>
+    </div>
+    <div class="headerNav">
+      <ul>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="beers.html">BEERS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+     </div>
+  </header>
+  
+  <main class="CanMain">
+    <h2 class="hidden">Collective Lucy & Yak Main Content</h2>
+    <section class="hero">
+      <h2 class="hidden">Hero</h2>
+      <div class="intro">
+        <div class="introImg">
+          <img src="images/full_logo.svg" alt="Full Logo">
+        </div>
+        <div class="textBox">
+          <p>This is a collaboration project between Collective Arts Brewing and Lucy & Yak - 'Rainbowz' Limited Edition Striped Dungarees. The marketing project was created for valueing creativity, innovation and artistic in any forms of art.<br><br>
+             <span class="drink">Drink Well, Dress Nice! <br>Enjoy your Life</span>
+          </p>
+        </div>
+      </div><!--end Intro-->
+      <div class="promoCan">
+        <img src="images/promo_index.png" alt="promo image">
+      </div>
+    </section>
+    
+    <section class="beers">
+      <h2>NEWEST COLLECTION</h2>
+      <!--flex row-->
+    <section class="rowBeer">
+      <div class="beerThumbnail">
+        <div class="Img">
+          <img src="images/beers_thumb.jpg" alt="thumbnail">
+        </div>
+        <div class="beerInfo">
+          <h3>RAIBOW STOUT</h3>
+          <p id="beerDes">Brewed in collaboration with Lucy & Yak, we created an Imperial Stout with Rainbowz artwork.</p>
+          <button class="seeMore"><a href="beers.html">SEE COLLECTION</a></button>
+        </div>
+      </div><!--end beerThumbnail-->
+
+      <nav id="changeBeer">
+        <ul>
+          <li><div class="beerButton rainbow" data-offset="0">
+            <img src="images/can1.png" alt="can1 thumbnail" id="beerThumb">
+          </div></li>
+          <li><div class="beerButton dungaree" data-offset="1">
+            <img src="images/can2.png" alt="can2 thumbnail" id="beerThumb2">
+          </div></li>
+          <li><div class="beerButton feel" data-offset="2">
+            <img src="images/can3.png" alt="can3 thumbnail" id="beerThumb2">
+          </div></li>
+          <li><div class="beerButton special" data-offset="3">
+            <img src="images/can4.png" alt="can4 thumbnail" id="beerThumb2">
+          </div></li>
+        </ul>
+      </nav><!--end changeBeer-->
+    </section><!--end rowBeer-->
+    </section><!--end Beers-->
+  </main><!--end Main-->
+  
+  <footer>
+    <div class="footerNav">
+      <ul>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="beers.html">BEERS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+     </div>
+    <div class="footerLogo">
+      <img src="images/small_logo_white.png" alt="Footer Logo">
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

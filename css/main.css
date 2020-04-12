@@ -1,0 +1,742 @@
+body {font-family: 'Tahoma';}
+
+.hidden {display: none;}
+
+@font-face {
+  font-family: 'Supra Thin';
+  src: url('Supra-Thin.woff2') format('woff2'), 
+       url('Supra-Thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Supra Bold';
+  src: url('Supra-Bold.woff2') format('woff2'), 
+       url('Supra-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Factoria';
+  src: 
+       url('Factoria-Black.woff') format('woff');
+}
+
+/*Header*/
+header {
+  display: flex; 
+  flex-direction: row;
+  margin: 20px;
+}
+
+.mainLogo img {width: 80px;}
+
+.headerNav
+{
+  margin-left: auto;
+  width: 70%;;
+}
+
+.headerNav ul
+{
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerNav ul li
+{
+  list-style-type:none;
+  margin: 20px;
+  height: 40px;
+  font-family: "Tahoma";
+  font-size: 20px;
+}
+
+.headerNav ul li a
+{
+  color: black;
+}
+
+.headerNav ul li a:hover
+{
+  color: #f1a5bc;
+  border-bottom: 3px solid #f1a5bc;
+  padding-bottom: 5px;
+}
+
+/*Hero*/
+.hero{
+  display: flex;
+  flex-direction: column;
+}
+
+.intro{
+  display: flex;
+  flex-direction: column;
+}
+
+.introImg
+{
+  margin: 0 auto;
+  margin-top: 30px; margin-bottom: 40px;
+}
+
+.introImg img
+{
+  width: 400px;
+}
+
+.textBox
+{
+  margin: 0px 50px 0px 50px;
+  font-family: 'Supra Bold';
+  font-size: 18px;
+}
+
+.promoCan {
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 30px; margin-bottom: 30px;
+}
+
+/*Beers*/
+.beers {margin-top: 250px;}
+.beers h2 {
+  text-align: center; 
+  font-size: 2em; 
+  margin-bottom: 30px;
+  font-family: 'Factoria';
+  color: #b15421;
+}
+
+.beerThumbnail
+{
+  background-color: #efefef;
+  margin: 30px;
+  display: flex; 
+  flex-direction: column;
+  margin-bottom: 30px;
+  
+}
+.Img { margin: 30px;}
+
+.Img img
+{
+  width: 100%; margin: 0 auto;
+}
+
+.beerInfo
+{
+  padding: 0px 30px 30px 30px;
+  display: flex; 
+  flex-direction: column;
+}
+
+.beerInfo h3
+{
+  font-size: 1.8em;
+  margin-bottom: 13px;
+  font-family: 'Factoria';
+}
+
+#beerDes {height: 90px;}
+
+.seeMore
+{
+  margin: 0 auto;
+  margin-top: 25px;
+  padding: 10px 35px;
+  background-color: #f1a5bc;
+ 
+}
+
+.seeMore a
+{
+  font-family: "Tahoma";
+  color: white;
+  font-size: 18px;
+}
+
+.seeMore:hover
+{
+  background-color: #b15421;
+  color: #f1a5bc;
+}
+
+/*Change Beer Buttons*/
+#changeBeer
+{
+  margin-top: 20px; 
+  margin-bottom: 40px;
+  display: flex; flex-direction: column;
+}
+
+#changeBeer ul
+{
+  margin: 0 auto;
+}
+
+#changeBeer ul li
+{
+  display:inline;
+  list-style-type:none;
+  padding:0px 10px;
+  cursor:pointer;
+}
+
+.beerButton
+{
+  width:51px;
+  height:54px;
+  display:inline-block;
+  overflow:hidden; 
+}
+
+/*Button Images*/
+#beerThumb{width: 30px; margin-left: 10px;}
+#beerThumb2{width: 28px; margin-left: 10px;}
+#beerThumb:hover, #beerThumb2:hover{filter: grayscale(100%);}
+
+
+/*Footer*/
+footer
+{
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.footerLogo img{
+  width: 80px
+}
+
+.footerNav ul
+{
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.footerNav ul li
+{
+  list-style-type:none;
+  margin: 20px 20px 20px 20px;
+}
+
+.footerNav ul li a
+{
+  color: #f1a5bc;
+  font-family: "Tahoma";
+  font-size: 18px;
+}
+
+.footerNav ul li a:hover
+{
+  color: #b15421;
+}
+
+.footerLogo
+{
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+/*ABOUT PAGE*/
+.aboutDetails, .videoSection
+{
+  display: flex; flex-direction: column;
+}
+
+.aboutInfo
+{
+  padding: 20px;
+}
+
+.aboutInfo p {font-family: 'Tahoma';}
+
+.videoPromo
+{
+  background-color: pink;
+  padding: 20px;
+}
+
+.video
+{
+  background-color: gray;
+  height: 300px;
+}
+
+#highlight {font-family: 'Supra Bold'; color: #b15421;}
+
+/*CAN BEER PAGE*/
+.pageTitle
+{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+}
+
+.pageTitle h2
+{
+  font-family: "Factoria";
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.pageTitle h3
+{
+  font-size: 20px;
+}
+
+/*Beer Images*/
+.beerModel {display: flex; }
+
+.beerModel2 {display: none;}
+
+.canModel {display: flex; flex-direction: column;}
+
+.canArt {display: flex;}
+
+#can
+{
+  margin: 0 auto; height: 300px;
+  margin-top: 30px; margin-bottom: 30px;
+}
+
+#art {
+  width: 60%; margin: 0 auto;
+}
+
+.detailContent
+{
+  padding: 30px;
+}
+
+.detailContent h4
+{
+  font-family: 'Supra Bold';
+  font-size: 25px;
+}
+
+.detailContent h5
+{
+  font-size: 20px;
+}
+
+.controlContent
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 15px;
+}
+
+.controlContent button
+{
+  padding: 15px; border-radius: 10px;
+  width: 50%; color: white;
+  font-size: 15px; background-color: black;
+}
+
+.controlContent button:hover 
+{
+  background-color: #f1a5bc;
+  color: black;
+}
+
+/*hide content*/
+.desInfo, .desInfo2 {display: none;}
+
+.desContent {display: block;}
+
+.desArtwork {display: block;}
+
+.desContent p, .desArtwork p
+{
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+/*CONTACT MAIN*/
+.contactMain
+{
+  display: flex; flex-direction: column;
+}
+
+.contactInfo
+{
+  padding: 20px;
+}
+
+.contactHolder
+{
+  background: url('../images/can1_art.jpg') no-repeat center;
+  padding: 20px;
+  display: flex; flex-direction: column;
+}
+
+.contactInfo p {font-family: 'Tahoma';}
+
+form
+{
+  padding: 30px;
+  background-color: white;
+  height: 400px;
+  font-family: 'Tahoma'; 
+  width: 380px;
+  margin: 0 auto;
+}
+
+input, textarea
+{
+  border: 1px solid black;
+  margin-top: 10px;
+  width: 90%;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+textarea { height: 100px; }
+
+#send { 
+  padding: 15px 30px; 
+  background-color: #f1a5bc;
+  color: white;
+  font-size: 15px;
+}
+
+#send:hover {
+  background-color: #b15421;
+}
+
+/*BEERS*/
+.beerListBg {padding: 20px;}
+.beerList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  background-color: white;
+}
+
+#promo {width: 100%; margin: 0 auto;}
+.beerShop
+{
+  display: flex; flex-direction: column;
+  background-color: #efefef;
+  padding: 10px;
+}
+
+.beerShop h3
+{
+  font-family: 'Supra Bold';
+  color: gray;
+}
+
+.beerShop h4
+{
+  font-family: 'Supra Bold';
+}
+
+/*Tablet*/
+@media only screen and (min-width: 768px)
+{
+  body
+  {
+    font-size: 1.3em;
+  }
+
+  header
+  {
+    margin-left: 40px;
+  }
+
+  .headerNav
+  {
+    width: 60%;
+  }
+
+  .headerNav ul li a
+  {
+    font-size: 1.2em;
+  }
+
+  .introImg img
+  {
+    width: 500px;
+  }
+
+  .textBox p
+  {
+    font-size: 1.2em;
+    margin-left: 50px;
+  }
+
+  .beers h2
+  {
+    font-size: 2.2em;
+    margin-top: 30px;
+  }
+
+  .beerThumbnail
+  {
+    margin: 50px;
+    margin-bottom: 30px; 
+  }
+
+  #changeBeer {margin-bottom: 50px;}
+
+  #beerDes {height: 120px;}
+
+  .beerInfo h3{ font-size: 2em; }
+
+  #beerDes
+  {
+    font-size: 1.2em;
+  }
+
+  .seeMore a
+  {
+    font-size: 23px;
+  }
+
+  /*Footer*/
+  footer
+  {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+  }
+
+  .footerNav
+  {
+    width: 60%;
+  }
+
+  .footerNav ul li a
+  {
+    font-size: 1.1em;
+  }
+
+  /*ABOUT PAGE*/
+  .aboutInfo
+  {
+    padding: 30px;
+  }
+
+  .videoPromo
+  { 
+    padding: 30px;
+    margin: 0px 30px 30px 30px;
+  }
+
+  /*BEER CAN PAGE*/
+  .pageTitle
+  {
+    padding: 30px;
+  }
+
+  .pageTitle h2
+  {
+    font-size: 1.8em;
+  }
+
+  .pageTitle h3
+  {
+    font-size: 1.3em;
+  }
+
+  .mainDetails
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .beerModel, .detailContent
+  {
+    width: 50%;
+  }
+
+  .detailContent h4
+  {
+    font-size: 30px;
+  }
+
+  .detailContent h5, 
+  .desContent p. .desArtwork p
+  {
+    font-size: 1.2em;
+  }
+
+  #art {width: 60%;}
+  .canArt {width: 60%;}
+
+  /*CONTACT PAGE*/
+  .contactInfo {padding: 30px;}
+  .contactHolder
+  {
+    padding: 30px;
+  }
+  form
+  {
+    height: 450px;
+  }
+
+  .beerList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 40px;
+  background-color: white;
+
+}/* End Tablet*/
+
+@media only screen and (min-width: 1024px)
+{
+  .beerList/*.aboutDetails, .contactMain*/
+  {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+   .promoCan img {margin-top: 100px;}
+
+  .mainLogo
+  {
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+
+  .mainLogo img
+  {
+    width: 100px;
+  }
+
+  .headerNav
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .headerNav ul
+  {
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+
+  .headerNav ul li
+  {
+    margin-left: 60px;
+  }
+
+  .headerNav ul li a
+  {
+    font-size: 1.4em;
+  }
+
+  .hero
+  {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .intro
+  {
+    width: 60%;
+  }
+
+  .introImg img
+  {
+    width: 600px;
+  }
+
+  .beers {margin-top: 40px;}
+
+  /*beers thumbnail*/
+  .beerThumbnail { width: 900px; margin: 0 auto; 
+    margin-bottom: 70px;}
+
+  #changeBeer {margin-top: 40px;}
+
+  .beers {display: flex; flex-direction: column;}
+  .rowBeer {display: flex; flex-direction: row; 
+    justify-content: space-around; margin: 0 auto;}
+
+  #changeBeer ul {display: flex; flex-direction: column;
+    justify-content: space-around; padding-top: 100px; padding-left: 20px;}
+
+  /*ABOUT PAGE*/
+
+  .aboutInfo
+  {
+    padding: 30px 30px 50px 100px;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .Img img {width: 80%; margin-left: 90px ;}
+
+  
+  /*Delete this after embedded*/
+  .video {height: 500px;}
+
+  /*BEER CAN PAGE*/
+  .pageTitle
+  {
+    padding: 30px;
+  }
+
+  .pageTitle h2
+  {
+    font-size: 2.2em;
+  }
+
+  .pageTitle h3
+  {
+    font-size: 1.5em;
+  }
+
+  .detailContent h4
+  {
+    font-size: 35px;
+  }
+
+  .detailContent h5, 
+  .desContent p, .desArtwork p
+  {
+    font-size: 1.4em;
+  }
+
+  .beerModel img
+  {
+    height: 400px;
+  }
+
+  .beerModel
+  {
+    padding: 60px;
+  }
+
+  /*CONTACT PAGE*/
+  .contactMain {display: flex; flex-direction: row;}
+
+  .contactInfo {width: 50%; padding: 30px 30px 0px 100px;}
+
+  .contactHolder
+  {
+    width: 50%;
+  }
+  form
+  {
+    height: 450px;
+  }
+
+  /*BEER*/
+
+
+}/*End Desktop*/
